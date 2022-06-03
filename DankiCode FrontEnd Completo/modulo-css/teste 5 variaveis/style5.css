@@ -1,0 +1,13 @@
+/*coloca a variavel aqui dentro, na variavel pode colocar qualquer propriedade*/
+:root{
+    --corPadrao: blue;
+    --widthPadrao:1100px;
+}
+
+
+div {
+    background-color: var(--corPadrao);
+    max-width: var(--widthPadrao);
+    margin: 0 auto;
+}
+

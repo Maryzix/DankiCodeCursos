@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.wraper .img {
+   width: 20%;
+}
+
+
+
+.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+.darken:hover img {
+    opacity: 0.5;   
+    cursor: pointer;   
+}
+.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+
+
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .wraper .img {
+        width: 33.3%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .wraper .img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:580px){
+    .wraper .img {
+        width: 100%;
+    }
+}

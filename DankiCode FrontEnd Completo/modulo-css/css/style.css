@@ -1,0 +1,36 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* colocando atributo manipulado*/ 
+[name=paragrafo] {
+    color: blue;
+}
+/*todos com o atributo name*/
+[name] {
+    color: red;
+}
+
+.teste {
+    color: red;
+}
+
+#teste { 
+    color: green;
+}
+
+.paragrafo {
+    font-size: 30px;
+}

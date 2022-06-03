@@ -1,0 +1,70 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/*aumenta a importancia por conta da classe
+teste(classe) h2(tag) tittle(classe da tag)*/
+
+
+/*colocando animação de transação*/
+    @keyframes anim1 { 
+        from{background-color: green; width: 400px;}
+        to{background-color: red; width: 2px;}
+    }
+
+    @keyframes anim2{ 
+        0% {background-color: green;}
+        50%{background-color: red;}
+        100% {background-color: blue;}
+    }
+
+    
+    @keyframes anim3 {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
+
+    
+.teste {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.teste2 {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.teste3 {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: anim3;
+    position: relative;
+    animation-duration: 1s;
+    animation-direction: reverse;  
+    animation-iteration-count: infinite;
+    
+}
+

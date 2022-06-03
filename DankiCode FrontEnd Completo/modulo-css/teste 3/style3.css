@@ -1,0 +1,51 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+bg {
+    width: 100%;
+    height: 400px;
+    /*usado pra colocar imagem em alguma section*/
+    background-image: url('../css/landscape.jfif');
+    /*tirando a repetição de imagem de fundo*/
+    background-repeat: no-repeat;
+    /*arrumando a posição da imagem de fundo e tbm por porcentagem ou pixels*/
+    background-position:center;
+    /*tamanho do background com cover(cobre toda area sem ficar esticado e feio)*/
+    background-size: cover;
+    background-color: cyan;
+    
+
+}
+
+
+/*display das divs normalmente é dispplay block, comportamento em bloco, colocando inline-block você alinha os itens*/
+.container {
+    display: flex;
+    
+}
+/*displayflex obriga tudo a ficar na msm linha, nunca vai deixar exatamente aqui se comprometer as dimenções dos outros
+flex-wrap:wrap, usa para conseguir alinhas os elementos tranquilamente sem se incomodar com o display inline block das margens que são criadas
+itens se alinhem na vertical, justifi-content center e align content center
+definir o tamanho da box atraves do flex colocando 0.5 ou 0.25 etc*/
+.d1 {
+     width: 50%;
+     background-color:blue;
+   
+}
+/*para o site encaixar em varias telas deve-se usar porcentagem
+a altura normalmente não é definida pois a altura é automática*/
+.d2 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+.d3{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
