@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,15 +15,15 @@
                 <input type="text" name="nome" placeholder="Digite o seu nome...">
             </div>
             <div>
-                <input type="text" name="nome" placeholder="1234@gmail.com">
+                <input type="text" name="email" placeholder="1234@gmail.com">
             </div>
 
             <div>
                 <select name="lista" >
                     <option disabled selected>Qual sua idade?</option>
-                    <option>20</option>
-                    <option>25+</option>
-                    <option>40+</option>
+                    <option value="20">20</option>
+                    <option value="25+">25+</option>
+                    <option value="40+">40+</option>
                 </select>
             </div>
 
@@ -46,13 +46,13 @@
 
         <div class="input">
             <div>
-                <input type="checkbox" name="comida" value="florianópolis"><span>Fruta</span>
+                <input type="checkbox" name="comida[]" value="florianópolis"><span>Fruta</span>
             </div>
             <div>
-                <input type="checkbox" name="comida" value="São Paulo"><span>Fast Food</span>
+                <input type="checkbox" name="comida[]" value="São Paulo"><span>Fast Food</span>
             </div>
             <div>
-                <input type="checkbox" name="comida" value=""><span>Salada</span>
+                <input type="checkbox" name="comida[]" value=""><span>Salada</span>
             </div>
         </div>
 
