@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding-right: 8px;
+    border-right: 3px solid red;
+    font-size: 20px;
+    margin: 0 10px;
+    
+}

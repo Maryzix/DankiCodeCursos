@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+    /*BACKGROUNDS*/
+    background-color: red;
+    /*rgba(200,200,200, 0.4  opacidade*/
+    background-image: url(./imagem/gato-preto.webp);
+    background-size: cover;/*cobrir toda a caixa que a imagem está*/
+    background-position: 200%;/*posição da imagem na caixa*/
+    background-size: 60px 80px;
+   /* background-repeat:repeat x repeat y ; faz repetir a imagem tanto na horizontal quanto na vertical*/
+
+    
+}

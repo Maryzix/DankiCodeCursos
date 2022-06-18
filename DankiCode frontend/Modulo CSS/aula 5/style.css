@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+.lista,.lista2{
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+/*.lista li.item3 é mais especifico ainda então ganha mais prioridade que ambos*/
+.lista .item3, .lista2 .item3{
+      font-weight: bold;
+}
+
+.lista li, .lista2 li {
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-top: 10px;
+}
+
+
+
+ol {
+    list-style-position: inside;
+}
+
+
+/* ol > li /* as tags diretamentes da OL, mas caso tenha mais de uma atrapalha {
+    color: red;
+}*/
+
+.um {
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.um > .dois {
+    width: 300px;
+    height: 300px;
+    background: green;
+}
+
+.um > .tres {
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.um > .tres > .quatro { /*se fizer .um .quatro funciona igual*/
+    width: 100px;
+    height: 100px;
+    background: grey;
+}

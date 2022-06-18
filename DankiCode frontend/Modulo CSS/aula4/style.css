@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+/*Estilo do meu site*/
+.artigo {
+    background-color: rgb(200, 200, 200);
+    width: 100%;/*responsivo para se adaptar a qualquer tela*/
+    /*max-width: para determinar o tamanho total da tela;*/
+    /*min-width:*/
+    height: 100%;
+    text-align: center;
+}
+
+.artigo h1 {
+    color: rgb(66, 149, 244);
+    font-size: 23px; 
+    /*1em seria igual a 100%, 2em 200% e por ai vai*/
+    font-family: 'Times New Roman', Times, serif;
+    /*font-variant: small-caps;*/
+}
+
+.artigo p {
+    color: #b4b4b4;
+    font-size: 17px;
+    font-family: 'tahoma';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px; /* distancia de uma linha para outra*/
+    margin-top: 12px;
+    /*letter-spacing: 20px;  espaçamento entre as letras*/ 
+}

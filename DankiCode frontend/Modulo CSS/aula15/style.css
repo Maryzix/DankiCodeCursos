@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+.table1 {
+    border-collapse: collapse;
+    width: 900px;
+    margin: 0 auto;
+}
+
+table tr td{
+    background-color:rgb(200, 200, 200);
+    height: 300px;
+    vertical-align: top ;
+    border: 1px solid black;
+}
+*/
+
+.menu-fixed {
+    /*valor inicial do position é sempre static, no msm lugar*/
+    position:relative;/*fixed fica fixado no msm lugar msm descendo a scroll, absolute fica na  posição absoluta  */
+    left: 30px;
+    top: 70px;
+    bottom: 0;
+    right: 0;
+    width: 300px; 
+    height: 200px;
+    background-color: #069;
+    
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    background-color: green;
+}
+
+.box p {
+    width: 400px;
+}

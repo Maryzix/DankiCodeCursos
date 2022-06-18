@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.tipo1 {
+    color: grey;
+}
+
+.link_ {
+   font-size: 30px;
+}
+
+/*prevalece ela ordem colocada no css*/
+.tipo2 {
+    font-size: 40px;
+}
+
+

@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*
+ul {
+    list-style-position: inside;
+}
+*/
+
+/*ataca a segunda LI dentro da UL, type pega o tipo*/
+/*
+ul li:nth-of-type(2) {
+    color: red;
+}
+/*
+
+
+
+/*pega o 3 elemento dentro da UL, o 3 filho independendo de quantos filhos , pegará o 3 filho*/
+/*
+ul li:nth-child(3){
+    color: blue;
+}
+*/
+
+
+
+.box {
+    width: 100%;
+}
+
+
+
+.box div{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+
+
+/* para inserir depois do conteudo
+.p::after{
+    content: 'Nathália';
+    background-color: red;
+}
+
+para inserir antes do conteudo
+
+.p::before {
+    content:'Lávai';
+*/
+
+/*pegue todos os P que estão vazios*/
+
+/*
+p:empty{
+   background-color: orange;
+   width: 200px;
+   height: 200px;
+}
+*/
+
+
+
+
+/*para NÃO afetar a classe UM*/
+/*
+.box div:not(.one) {
+    background-color: blue;
+}
+*/
+
+
+
+
+
+/*pega o ultimo elemento, não tipo
+.box div:last-child p{
+    color: blue;
+}
+*/
+/* ataca a ultima div de dentro da classe box
+.box div:last-of-type p {
+    color: rgba(255, 255, 255, 1);
+}
+*/
+
+
+
+/*pegue o ultimo elemento dentro da div*/
+/*
+.box div:last-of-type {
+    background-color: green;
+}
+/*ULTIMO ELEMENTO P*/
+/*
+.box p:last-of-type{
+    color: rgb(200, 200, 200);
+    background-color: green;
+}
+*/

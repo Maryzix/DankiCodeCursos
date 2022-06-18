@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html, body {
+    height: 100%;
+}
+
+.parent {
+    background-color: #069;
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 20px 0;
+}
+
+/*.parent div:nth-of-type(2n+1) div.item  2n + 1 dizendo comece do primeiro e acada dois aplique a cor vermelha podendo mudar 3n, 4n etc*/
+/*
+.parent div:nth-of-type(2) div.item{
+    background-color: red;
+}
+*/ 
+/*
+.parent div:last-child div.item {
+    background-color: red;
+}
+*/
+/*primeiro do tipo*/
+/*
+.parent p:first-of-type{
+    color: orange;
+}
+*/

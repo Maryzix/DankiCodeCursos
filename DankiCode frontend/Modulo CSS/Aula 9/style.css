@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.center {
+    width: 1280px;
+    margin: 0 auto;
+    /*box-sizing: border-box; para o design responsivo*/
+    background-color: grey;
+    padding: 30px;
+
+}
+
+.artigo {
+    /*truque pra colocar tudo na msm linha*/
+    box-sizing: border-box;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: red;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: -4px;
+    width: 640px;
+}
+ 
